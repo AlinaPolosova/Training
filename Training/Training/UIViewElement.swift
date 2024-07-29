@@ -16,6 +16,9 @@ class UIViewElement: UIViewController {
     let view5 = UIView()
     let view6 = UIView()
     
+    let screenWidth = UIScreen.main.bounds.width / 2 - 32
+    let screenHeight = UIScreen.main.bounds.height / 3 - 48
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,8 +36,6 @@ class UIViewElement: UIViewController {
         view1.backgroundColor = .red
         view1.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(view1)
-        let screenWidth = UIScreen.main.bounds.width / 2 - 32
-        let screenHeight = UIScreen.main.bounds.height / 3 - 48
         NSLayoutConstraint.activate([
             view1.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             view1.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
@@ -47,8 +48,6 @@ class UIViewElement: UIViewController {
         view2.backgroundColor = .blue
         view2.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(view2)
-        let screenWidth = UIScreen.main.bounds.width / 2 - 32
-        let screenHeight = UIScreen.main.bounds.height / 3 - 48
         NSLayoutConstraint.activate([
             view2.leadingAnchor.constraint(equalTo: view1.trailingAnchor, constant: 16),
             view2.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
@@ -62,8 +61,6 @@ class UIViewElement: UIViewController {
         view3.backgroundColor = .green
         view3.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(view3)
-        let screenWidth = UIScreen.main.bounds.width / 2 - 32
-        let screenHeight = UIScreen.main.bounds.height / 3 - 48
         NSLayoutConstraint.activate([
             view3.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             view3.topAnchor.constraint(equalTo: view1.bottomAnchor,constant: 16),
@@ -76,8 +73,6 @@ class UIViewElement: UIViewController {
         view4.backgroundColor = .black
         view4.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(view4)
-        let screenWidth = UIScreen.main.bounds.width / 2 - 32
-        let screenHeight = UIScreen.main.bounds.height / 3 - 48
         NSLayoutConstraint.activate([
             view4.leadingAnchor.constraint(equalTo: view3.trailingAnchor, constant: 16),
             view4.topAnchor.constraint(equalTo: view2.bottomAnchor, constant: 16),
@@ -91,8 +86,6 @@ class UIViewElement: UIViewController {
         view5.backgroundColor = .systemPink
         view5.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(view5)
-        let screenWidth = UIScreen.main.bounds.width / 2 - 32
-        let screenHeight = UIScreen.main.bounds.height / 3 - 48
         NSLayoutConstraint.activate([
             view5.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             view5.topAnchor.constraint(equalTo: view3.bottomAnchor, constant: 16),
@@ -106,8 +99,6 @@ class UIViewElement: UIViewController {
         view6.backgroundColor = .orange
         view6.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(view6)
-        let screenWidth = UIScreen.main.bounds.width / 2 - 32
-        let screenHeight = UIScreen.main.bounds.height / 3 - 48
         NSLayoutConstraint.activate([
             view6.leadingAnchor.constraint(equalTo: view5.trailingAnchor, constant: 16),
             view6.topAnchor.constraint(equalTo: view4.bottomAnchor, constant: 16),

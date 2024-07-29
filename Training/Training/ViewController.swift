@@ -63,15 +63,15 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row == 0 {
             let labelVC = UIViewElement()
-//            labelVC. = nameCells[indexPath.row]
             navigationController?.pushViewController(labelVC, animated: true)
+        } else if indexPath.row == 11 {
+               let anotherVC = UIStackViewController()
+               navigationController?.pushViewController(anotherVC, animated: true)
         } else {
             let labelVC = LabelExampleViewController()
             labelVC.labelText = nameCells[indexPath.row]
             navigationController?.pushViewController(labelVC, animated: true)
         }
-        
-        
         
     }
     
