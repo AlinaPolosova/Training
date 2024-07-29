@@ -14,6 +14,7 @@
 		0449CB472C511A970000B476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0449CB462C511A970000B476 /* Assets.xcassets */; };
 		0449CB4A2C511A970000B476 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0449CB492C511A970000B476 /* Base */; };
 		0449CB522C513B560000B476 /* LabelExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449CB512C513B560000B476 /* LabelExampleViewController.swift */; };
+		0449CB542C5270540000B476 /* UIViewElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449CB532C5270540000B476 /* UIViewElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0449CB492C511A970000B476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0449CB4B2C511A970000B476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0449CB512C513B560000B476 /* LabelExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExampleViewController.swift; sourceTree = "<group>"; };
+		0449CB532C5270540000B476 /* UIViewElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				0449CB3F2C511A960000B476 /* SceneDelegate.swift */,
 				0449CB412C511A960000B476 /* ViewController.swift */,
 				0449CB512C513B560000B476 /* LabelExampleViewController.swift */,
+				0449CB532C5270540000B476 /* UIViewElement.swift */,
 				0449CB432C511A960000B476 /* Main.storyboard */,
 				0449CB462C511A970000B476 /* Assets.xcassets */,
 				0449CB482C511A970000B476 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0449CB522C513B560000B476 /* LabelExampleViewController.swift in Sources */,
+				0449CB542C5270540000B476 /* UIViewElement.swift in Sources */,
 				0449CB422C511A960000B476 /* ViewController.swift in Sources */,
 				0449CB3E2C511A960000B476 /* AppDelegate.swift in Sources */,
 				0449CB402C511A960000B476 /* SceneDelegate.swift in Sources */,
