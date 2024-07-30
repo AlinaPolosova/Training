@@ -67,6 +67,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         } else if indexPath.row == 11 {
                let anotherVC = UIStackViewController()
                navigationController?.pushViewController(anotherVC, animated: true)
+        } else if indexPath.row == 16 {
+               let anotherVC = UIScrollViewController()
+               navigationController?.pushViewController(anotherVC, animated: true)
         } else {
             let labelVC = LabelExampleViewController()
             labelVC.labelText = nameCells[indexPath.row]
